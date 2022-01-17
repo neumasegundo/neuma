@@ -1,0 +1,60 @@
+
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>New HTML5 autocomplete Attribute and datalist Element</title>
+      
+      
+      
+      
+   </head>
+
+   <body>
+      <h1>Autocomplete and Datalist Demo</h1>
+      <p>This form demonstrates the new HTML5 autocomplete attribute 
+         and the datalist element.
+      </p>
+
+      <!-- turn autocomplete on -->
+      <form method = "post" autocomplete = "on">
+         <p><label>Nombre:
+            <input type = "text" id = "Nombre" 
+               placeholder = "Nombre" /> 
+            </label></p>
+         <p><label>Apellido Paterno:
+            <input type = "text" id = "Apellido Paterno" 
+               placeholder = "Apellido Paterno" />
+             </label>
+         <p><label>Apellido Materno:
+            <input type = "text" id = "Apellido Materno" 
+               placeholder = "Apellido Materno" />    
+            </label></p>
+         <p><label>Email:
+            <input type = "email" id = "email" 
+               placeholder = "name@domain.com" /> (name@domain.com)
+            </label></p>
+         <p><label for = "txtList">Mes de nacimiento:
+            <input type = "text" id = "txtList" 
+               placeholder = "Select a month" list = "months" />
+            
+            
+            <datalist id = "months">
+               <option value = "Enero">
+               <option value = "Febrero">
+               <option value = "Marzo">
+               <option value = "Abril">
+               <option value = "Mayo">
+               <option value = "Junio">
+               <option value = "Julio">
+               <option value = "Agosto">
+               <option value = "Septiembre">
+               <option value = "Octubre">
+               <option value = "Noviembre">
+               <option value = "Diciembre">   
+            </datalist>
+         </label></p>
+         <p><input type = "submit" value = "Submit" />
+            <input type = "reset" value = "Clear" /></p>   
+      </form>
+   </body>
+</html>
